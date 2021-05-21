@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cookies</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="enviar()">
+    <h1>Agregar Cookies</h1>
+    <div>
+        <label for="nombre">Nombre(s):</label><br>
+        <input id="nombre" name="nombre" type="text" required><br><br>
+    </div>
+    <div>
+        <label for="apellido">Apellido(s):</label><br>
+        <input id="apellido" name="apellido" type="text" required><br><br>
+    </div>
+    <div>
+        <label for="email">Email:</label><br>
+        <input id="email" name="email" type="email" required><br><br>
+    </div>
+    <div>
+        <label for="facultad">Facultad:</label><br>
+        <input id="facultad" name="facultad" type="text" required><br><br>
+    </div>
+    <div>
+        <label for="carrera">Carrera:</label><br>
+        <input id="carrera" name="carrera" type="text" required><br><br>
+    </div>
+    <button onclick="capturar()">Enviar Cookies</button>
+    <br>
+    <br>
+    <p id="cookieNombre"></p>
+    <p id="cookieApellido"></p>
+    <p id="cookieEmail"></p>
+    <p id="cookieFacultad"></p>
+    <p id="cookieCarrera"></p>
+</body>
+</html>
